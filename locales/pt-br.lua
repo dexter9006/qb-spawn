@@ -1,12 +1,12 @@
 local Translations = {
     ui = {
-        last_location = "Última ubicación",
+        last_location = "Última Localização",
         confirm = "Confirmar",
-        where_would_you_like_to_start = "¿Por dónde te gustaría empezar?",
+        where_would_you_like_to_start = "Onde você gostaria de começar?",
     }
 }
 
-if GetConvar('qb_locale', 'en') == 'es' then
+if GetConvar('qb_locale', 'en') == 'pt-br' then
     Lang = Locale:new({
         phrases = Translations,
         warnOnMissing = true,
